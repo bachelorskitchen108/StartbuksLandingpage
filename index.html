@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="stylesheet" href="index.css" />
+          <title>Starbuks</title>
+     </head>
+     <body>
+          <section>
+               <div class="circle"></div>
+               <header>
+                    <a href="#"><img src="./images/logo.png" alt="" class="logo" /></a>
+                    <ul>
+                         <li><a href="https://www.starbucks.in/" target="_blank">Home</a></li>
+                         <li><a href="https://www.starbucks.in/menu-list" target="_blank">Menu</a></li>
+                         <li>
+                              <a href="https://www.starbucks.in/menu-list/food-list/featured-food" target="_blank"
+                                   >Featured Items</a
+                              >
+                         </li>
+                         <li><a href="https://www.starbucks.in/store-locator/search" target="_blank">Contact Us</a></li>
+                         <li><a href="https://www.starbucks.in/about-us" target="_blank">About Us</a></li>
+                    </ul>
+               </header>
+               <div class="content">
+                    <div class="textBox">
+                         <h2>It's not just Coffee <br />It's <span>Starbuks</span></h2>
+                         <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quibusdam tenetur fuga sed rem
+                              expedita atque quod laboriosam inventore dignissimos!
+                         </p>
+                         <a href="https://www.starbucks.in/about-us/company-information/" target="_blank">Learn More</a>
+                    </div>
+
+                    <div class="imgBox">
+                         <img src="./images/img1.png" class="sb" alt="" />
+                    </div>
+               </div>
+               <ul class="thumb">
+                    <li>
+                         <img src="./images/thumb1.png" onclick="imgSlider('./images/img1.png'); changeCircleColor('#017143')" />
+                    </li>
+                    <li>
+                         <img src="./images/thumb2.png" onclick="imgSlider('./images/img2.png'); changeCircleColor('#eb7495')" />
+                    </li>
+                    <li>
+                         <img src="./images/thumb3.png" onclick="imgSlider('./images/img3.png'); changeCircleColor('#d752b1')" />
+                    </li>
+               </ul>
+               <ul class="sci">
+                    <li>
+                         <a href="https://www.facebook.com/starbucksindia/" target="_blank"
+                              ><img src="./images/facebook.png" alt=""
+                         /></a>
+                         <a href="https://twitter.com/starbucksindia" target="_blank"
+                              ><img src="./images/twitter.png" alt=""
+                         /></a>
+                         <a href="https://www.instagram.com/starbucksindia/?hl=en" target="_blank"
+                              ><img src="./images/instagram.png" alt=""
+                         /></a>
+                    </li>
+               </ul>
+          </section>
+          <script src="./index.js"></script>
+     </body>
+</html>
